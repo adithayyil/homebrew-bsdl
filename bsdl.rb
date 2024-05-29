@@ -10,7 +10,7 @@ class Bsdl < Formula
   on_macos do
     on_intel do
       url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Darwin_x86_64.tar.gz"
-      sha256 "91c6a8e40a280655e4314a922d957f6fa1107d8d3613e4a2a653f55178a40899"
+      sha256 "576eee767514db13db917055658d054854977b081a6eb58fb53e7ea1b18c8b22"
 
       def install
         bin.install "bsdl"
@@ -18,7 +18,7 @@ class Bsdl < Formula
     end
     on_arm do
       url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Darwin_arm64.tar.gz"
-      sha256 "5db959f7221fd42c325043335f5c5911aa434cb8deb132f162151c8de456961b"
+      sha256 "9c4c0ab287d5786835880e6b13b893022bdeb68d9e13cf0e26df7dcccd180cc1"
 
       def install
         bin.install "bsdl"
@@ -30,7 +30,7 @@ class Bsdl < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Linux_x86_64.tar.gz"
-        sha256 "a0c45eb6b7ddc0f3f21caa0308dc94f792870be3f053ecab351a332dfcad1503"
+        sha256 "24a25f67de5835621fd99475ec031260d0a617757768dd39723287fcefaa1b18"
 
         def install
           bin.install "bsdl"
@@ -40,7 +40,7 @@ class Bsdl < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Linux_arm64.tar.gz"
-        sha256 "7ab27515d4d3fb68aef5b0d69dfbe9a610ecf2ed5ee88879f7ea59a08a0800d6"
+        sha256 "4f6f7ab93617402cb7e5706544bfa9d22b19a8ed05680f02f609c699655f4cca"
 
         def install
           bin.install "bsdl"
