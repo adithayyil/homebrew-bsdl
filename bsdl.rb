@@ -5,20 +5,20 @@
 class Bsdl < Formula
   desc "BeatStars Music Downloader"
   homepage "https://github.com/adithayyil/bsdl"
-  version "0.6"
+  version "0.7"
 
   on_macos do
     on_intel do
-      url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Darwin_x86_64.tar.gz"
-      sha256 "17bc5a122d6d2d56bb07fbecb03dc6bb08a7d6c8c14a1942ea559761f8e3cbc3"
+      url "https://github.com/adithayyil/bsdl/releases/download/v0.7/bsdl_Darwin_x86_64.tar.gz"
+      sha256 "dc62410460345a1add184b6eec3635be7ea25883aa86aae825c8207322394e20"
 
       def install
         bin.install "bsdl"
       end
     end
     on_arm do
-      url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Darwin_arm64.tar.gz"
-      sha256 "6deba40b4b79416b2944e0dc099a548470a06c9efdf1c4f89f2f598a7d5fb7a6"
+      url "https://github.com/adithayyil/bsdl/releases/download/v0.7/bsdl_Darwin_arm64.tar.gz"
+      sha256 "d63853e448cf533fb15b2067cd9718ad53db71949c5b392f6d6b07d763a47c31"
 
       def install
         bin.install "bsdl"
@@ -29,8 +29,8 @@ class Bsdl < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Linux_x86_64.tar.gz"
-        sha256 "073815d881051036d8fb1187fa8716023b78dd6e04f6c8334e335ce9f7af0e11"
+        url "https://github.com/adithayyil/bsdl/releases/download/v0.7/bsdl_Linux_x86_64.tar.gz"
+        sha256 "9a84aca09966ea7bfdf8aff77cce1be2188f0e826720406f51f28fd55400b70d"
 
         def install
           bin.install "bsdl"
@@ -39,8 +39,8 @@ class Bsdl < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/adithayyil/bsdl/releases/download/v0.6/bsdl_Linux_arm64.tar.gz"
-        sha256 "9e6813e11d05f3bfeeda7a9c59557fb3cad4750b1e766c9886c48dc9b0cf6836"
+        url "https://github.com/adithayyil/bsdl/releases/download/v0.7/bsdl_Linux_arm64.tar.gz"
+        sha256 "5f862b525ab88f4f9c93e4b4e5882d56dd6f47ba2c671b7bdf027ec62054c342"
 
         def install
           bin.install "bsdl"
